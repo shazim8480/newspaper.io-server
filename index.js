@@ -1,13 +1,12 @@
 const express = require("express");
 const app = express();
-// const MongoClient = require("mongodb").MongoClient;
 const { MongoClient } = require("mongodb");
 const ObjectId = require("mongodb").ObjectId;
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
-// const fileUpload = require("express-fileupload");
-// const fs = require("fs-extra");
+ // "start": "node index.js",
+    // "start-dev": "nodemon index.js" //package.json
 
 // for env variable//
 require("dotenv").config();
